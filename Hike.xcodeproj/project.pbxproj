@@ -11,6 +11,15 @@
 		7F1AD8F52C5AB5780011AFD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD8F42C5AB5780011AFD9 /* ContentView.swift */; };
 		7F1AD8F72C5AB57A0011AFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1AD8F62C5AB57A0011AFD9 /* Assets.xcassets */; };
 		7F1AD8FA2C5AB57A0011AFD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1AD8F92C5AB57A0011AFD9 /* Preview Assets.xcassets */; };
+		7F1AD9032C5AB92A0011AFD9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD9022C5AB92A0011AFD9 /* CardView.swift */; };
+		7F1AD9062C5ABAE00011AFD9 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD9052C5ABAE00011AFD9 /* CustomBackgroundView.swift */; };
+		7F1AD9092C5ABD6D0011AFD9 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD9082C5ABD6D0011AFD9 /* ColorExtension.swift */; };
+		7F1AD90B2C5AC5010011AFD9 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD90A2C5AC5010011AFD9 /* CustomButtonView.swift */; };
+		7F1AD90D2C5AD90C0011AFD9 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD90C2C5AD90C0011AFD9 /* GradientButtonStyle.swift */; };
+		7F1AD90F2C5AEC100011AFD9 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD90E2C5AEC100011AFD9 /* CustomCircleView.swift */; };
+		7F1AD9112C5AEE210011AFD9 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD9102C5AEE210011AFD9 /* MotionAnimationView.swift */; };
+		7F1AD9152C5B0ED50011AFD9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD9142C5B0ED50011AFD9 /* SettingsView.swift */; };
+		7F1AD9172C5B8D1D0011AFD9 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AD9162C5B8D1C0011AFD9 /* CustomListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		7F1AD8F42C5AB5780011AFD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F1AD8F62C5AB57A0011AFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F1AD8F92C5AB57A0011AFD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F1AD9022C5AB92A0011AFD9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7F1AD9052C5ABAE00011AFD9 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		7F1AD9082C5ABD6D0011AFD9 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		7F1AD90A2C5AC5010011AFD9 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		7F1AD90C2C5AD90C0011AFD9 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		7F1AD90E2C5AEC100011AFD9 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		7F1AD9102C5AEE210011AFD9 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		7F1AD9142C5B0ED50011AFD9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7F1AD9162C5B8D1C0011AFD9 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +69,13 @@
 		7F1AD8F12C5AB5780011AFD9 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				7F1AD9122C5B0E510011AFD9 /* New Group */,
+				7F1AD9072C5ABD510011AFD9 /* Utility */,
 				7F1AD8F22C5AB5780011AFD9 /* HikeApp.swift */,
-				7F1AD8F42C5AB5780011AFD9 /* ContentView.swift */,
+				7F1AD9132C5B0E750011AFD9 /* Screen */,
 				7F1AD8F62C5AB57A0011AFD9 /* Assets.xcassets */,
 				7F1AD8F82C5AB57A0011AFD9 /* Preview Content */,
+				7F1AD9042C5ABA5D0011AFD9 /* Component */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -65,6 +86,44 @@
 				7F1AD8F92C5AB57A0011AFD9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F1AD9042C5ABA5D0011AFD9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7F1AD9022C5AB92A0011AFD9 /* CardView.swift */,
+				7F1AD9052C5ABAE00011AFD9 /* CustomBackgroundView.swift */,
+				7F1AD90A2C5AC5010011AFD9 /* CustomButtonView.swift */,
+				7F1AD90E2C5AEC100011AFD9 /* CustomCircleView.swift */,
+				7F1AD9102C5AEE210011AFD9 /* MotionAnimationView.swift */,
+				7F1AD9162C5B8D1C0011AFD9 /* CustomListRowView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7F1AD9072C5ABD510011AFD9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7F1AD9082C5ABD6D0011AFD9 /* ColorExtension.swift */,
+				7F1AD90C2C5AD90C0011AFD9 /* GradientButtonStyle.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7F1AD9122C5B0E510011AFD9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7F1AD9132C5B0E750011AFD9 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7F1AD8F42C5AB5780011AFD9 /* ContentView.swift */,
+				7F1AD9142C5B0ED50011AFD9 /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F1AD8F52C5AB5780011AFD9 /* ContentView.swift in Sources */,
+				7F1AD90F2C5AEC100011AFD9 /* CustomCircleView.swift in Sources */,
+				7F1AD9172C5B8D1D0011AFD9 /* CustomListRowView.swift in Sources */,
+				7F1AD9032C5AB92A0011AFD9 /* CardView.swift in Sources */,
 				7F1AD8F32C5AB5780011AFD9 /* HikeApp.swift in Sources */,
+				7F1AD90B2C5AC5010011AFD9 /* CustomButtonView.swift in Sources */,
+				7F1AD9152C5B0ED50011AFD9 /* SettingsView.swift in Sources */,
+				7F1AD90D2C5AD90C0011AFD9 /* GradientButtonStyle.swift in Sources */,
+				7F1AD9112C5AEE210011AFD9 /* MotionAnimationView.swift in Sources */,
+				7F1AD9062C5ABAE00011AFD9 /* CustomBackgroundView.swift in Sources */,
+				7F1AD9092C5ABD6D0011AFD9 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +335,10 @@
 		7F1AD8FE2C5AB57A0011AFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Camera AppIcon-Campfire AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
@@ -296,8 +366,10 @@
 		7F1AD8FF2C5AB57A0011AFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Camera AppIcon-Campfire AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
